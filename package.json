@@ -2,9 +2,10 @@
   "name": "@cangokceaslan/padder",
   "version": "1.0.0",
   "description": "A template for padding utils function for Strings in JavaScript / NodeJs",
-  "builtEntry": "./build/index.js",
   "main": "./index.js",
+  "builtEntry": "./build/index.js",
   "private": false,
+  "url": "git://github.com/cangokceaslan/padder.git",
   "keywords": [
     "nodejs",
     "javascript",
