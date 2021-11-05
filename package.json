@@ -4,13 +4,28 @@
   "description": "A template for padding utils function for Strings in JavaScript / NodeJs",
   "builtEntry": "./build/index.js",
   "main": "./index.js",
+  "private": false,
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "padder",
+    "text-processing",
+    "padding"
+  ],
+  "bugs": {
+    "url": "https://github.com/cangokceaslan/padder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cangokceaslan/padder"
+  },
+  "homepage": "https://github.com/cangokceaslan/padder",
   "scripts": {
     "start": "node ./build/index.js",
     "dev": "npx babel ./src -d ./build --watch --copy-files --ignore *.test.js,examples",
     "build": "npx babel ./src -d ./build --copy-files --ignore *.test.js,examples",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
